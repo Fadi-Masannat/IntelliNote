@@ -9,6 +9,8 @@ import { useRouter } from "next/navigation";
 
 import { api } from "@/convex/_generated/api";
 import { Button } from "@/components/ui/button";
+import Tiptap from "@/components/novel-editor";
+
 
 const DocumentsPage = () => {
   const router = useRouter();
@@ -29,6 +31,7 @@ const DocumentsPage = () => {
 
   return (
     <div className="h-full flex flex-col items-center justify-center space-y-4">
+     
       <Image
         src="/empty.png"
         height="300"

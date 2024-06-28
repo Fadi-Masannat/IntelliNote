@@ -1,5 +1,5 @@
 "use client";
-/*
+
 import { useEffect, useState } from "react";
 import { File } from "lucide-react";
 import { useQuery } from "convex/react";
@@ -78,4 +78,3 @@ export const SearchCommand = () => {
     </CommandDialog>
   );
 };
-*/
